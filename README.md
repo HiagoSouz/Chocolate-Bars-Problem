@@ -21,32 +21,33 @@ Given the integer array bars , return the maximum number of bars you can pick.
 
 
 ### Example 1:
-1 Input:bars = [1,2,1]
-2 Output: 3
-3 Explanation: We can pick all bars.
+Input:bars = [1,2,1]
+Output: 3
+Explanation: We can pick all bars.
 
 ### Example 2:
-1 Input: bars = [0,1,2,2]
-2 Output: 3
-3 Explanation: We can pick from bars [1,2,2].
+Input: bars = [0,1,2,2]
+Output: 3
+Explanation: We can pick from bars [1,2,2].
 If we had started from the first (0), we would only pick from
 [0,1].
-4
+
 
 ### Example 3:
-1 Input: bars = [1,2,3,2,2]
-2 Output: 4
-3 Explanation: We can pick from bars [2,3,2,2].
+Input: bars = [1,2,3,2,2]
+Output: 4
+Explanation: We can pick from bars [2,3,2,2].
 If we had started at the first one, we would only pick from [1,
 2].
-4
+
 
 
 ### Example 4:
-1 Input: bars = [3,3,3,1,2,1,1,2,3,3,4]
-2 Output: 5
-3 Explanation: We can pick from bars [1,2,1,1,2].
+Input: bars = [3,3,3,1,2,1,1,2,3,3,4]
+Output: 5
+Explanation: We can pick from bars [1,2,1,1,2].
 
 ## Constraints:
 1 <= bars.length <= 100
+
 0 <= bars[i] < bars.length
